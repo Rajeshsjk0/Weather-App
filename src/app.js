@@ -93,7 +93,6 @@ app.get('/help/*', (req, res) => {
 		errorMessage: 'help article not found',
 	});
 });
-
 //* means anything that has not been defined so far
 app.get('*', (req, res) => {
 	res.render('404', {
