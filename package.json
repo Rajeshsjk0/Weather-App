@@ -13,5 +13,9 @@
 		"express": "^4.17.2",
 		"hbs": "^4.2.0",
 		"request": "^2.88.2"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.9.0",
+		"@typescript-eslint/parser": "^5.9.0"
 	}
 }
